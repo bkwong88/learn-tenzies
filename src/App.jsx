@@ -100,6 +100,7 @@ function App() {
         <Debug handleClick={autoWin} />
       </div>
       {hasWon ? <Confetti /> : ""}
+      <div></div>
     </>
   );
 }
